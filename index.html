@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shotiko Beroshvili - Full-Stack Developer, Technology Enthusiast, STEM Club Leader from Gurjaani, Georgia. Projects in web development, AI, robotics, and agricultural technology.">
+    <meta name="keywords" content="Shotiko Beroshvili, შოთიკო ბეროშვილი, developer, დეველოპერი, Georgia, STEM, robotics, web development">
+    <meta name="author" content="Shotiko Beroshvili">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Shotiko Beroshvili - Portfolio">
+    <meta property="og:description" content="Full-Stack Developer, Technology Enthusiast, STEM Club Leader from Gurjaani, Georgia">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ka_GE">
+    <meta property="og:locale:alternate" content="en_US">
+    
+    <!-- Canonical URL - Update after deployment -->
+    <link rel="canonical" href="https://yourusername.github.io/portfolio/">
+    
+    <title>Shotiko Beroshvili | შოთიკო ბეროშვილი - Portfolio</title>
+    
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-text">SB</span>
+            </a>
+            
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#hero" data-i18n="nav.home">მთავარი</a></li>
+                <li><a href="#about" data-i18n="nav.about">ჩემ შესახებ</a></li>
+                <li><a href="#skills" data-i18n="nav.skills">უნარები</a></li>
+                <li><a href="#projects" data-i18n="nav.projects">პროექტები</a></li>
+                <li><a href="#certifications" data-i18n="nav.certifications">სერტიფიკატები</a></li>
+                <li><a href="#achievements" data-i18n="nav.achievements">მიღწევები</a></li>
+                <li><a href="#contact" data-i18n="nav.contact">კონტაქტი</a></li>
+                <li><button class="lang-switch" id="lang-switch">KA / EN</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-name-ge">შოთიკო ბეროშვილი</h1>
+                <h1 class="hero-name-en">Shotiko Beroshvili</h1>
+                <p class="hero-headline" data-i18n="hero.headline">Full-Stack დეველოპერი | ტექნოლოგიების ენთუზიასტი </p>
+                <p class="hero-intro" data-i18n="hero.intro">მე მიყვარს პროგრამირება, ხელოვნური ინტელექტი, რობოტიკა, სტარტაპები და პრაქტიკული STEM განათლება. ვმუშაობ ტექნოლოგიურ პროექტებზე და ვეხმარები ახალგაზრდებს ტექნოლოგიების შესწავლაში.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary" data-i18n="hero.projects">ჩემი პროექტები</a>
+                    <a href="#about" class="btn btn-secondary" data-i18n="hero.about">ჩემ შესახებ</a>
+                    <a href="#contact" class="btn btn-tertiary" data-i18n="hero.contact">დამიკავშირდი</a>
+                </div>
+            </div>
+            <div class="hero-illustration">
+                <img src="assets/me.jpg" alt="Shotiko Beroshvili" class="hero-photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about.title">ჩემ შესახებ</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-i18n="about.p1">ჩემი სახელია შოთიკო ბეროშვილი. ვცხოვრობ გურჯაანში, საქართველო. მაინტერესებს full-stack დეველოპმენტი, ხელოვნური ინტელექტი, რობოტიკა, სტარტაპები, აგრარული ტექნოლოგიები და STEM განათლება.</p>
+                    <p data-i18n="about.p2">მიყვარს ციფრული პროექტების შექმნა, ახალი ტექნოლოგიების შესწავლა, პრაქტიკული იდეების ექსპერიმენტირება და ახალგაზრდების დახმარება ტექნოლოგიებისა და სტარტაპ იდეების შესწავლაში.</p>
+                    <p data-i18n="about.p3">ჩემი გამოცდილება მოიცავს პროგრამირების სწავლებას, სტარტაპ კონცეფციებს, რობოტიკას, ტექნიკურ პროექტებსა და ახალგაზრდულ STEM აქტივობებს.</p>
+                    <p data-i18n="about.p4">მუდმივად ვსწავლობ და ვეძებ შესაძლებლობებს, რათა შევქმნა სასარგებლო ტექნოლოგიური გადაწყვეტები, თანამშრომლობ სხვებთან და მივიღო პრაქტიკული გამოცდილება.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title" data-i18n="skills.title">უნარები</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 data-i18n="skills.web">Web დეველოპმენტი</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag" data-i18n="skills.frontend">Frontend დეველოპმენტი</span>
+                        <span class="skill-tag" data-i18n="skills.backend">Backend დეველოპმენტი</span>
+                        <span class="skill-tag" data-i18n="skills.fullstack">Full-stack დეველოპმენტი</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-i18n="skills.programming">პროგრამირება</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 data-i18n="skills.technology">ტექნოლოგია და პროტოტიპირება</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Arduino</span>
+                        <span class="skill-tag" data-i18n="skills.electronics">ელექტრონიკა და სენსორები</span>
+                        <span class="skill-tag" data-i18n="skills.robotics">რობოტიკა</span>
+                        <span class="skill-tag" data-i18n="skills.ai">AI ხელსაწყოები და პროტოტიპირება</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="projects.title">პროექტები</h2>
+            <div class="projects-grid">
+                <!-- Project 1: DIST -->
+                <article class="project-card">
+                    <div class="project-status status-inprogress" data-i18n="projects.status.concept">განვითარებაში</div>
+                    <h3 data-i18n="projects.dist.title">DIST — Peer Learning Platform</h3>
+                    <p data-i18n="projects.dist.desc">Peer-learning პლატფორმის კონცეფცია, რომელიც აკავშირებს სტუდენტ-მენტორებს სწავლებთან ხელმისაწვდომი აკადდემიური მხარდაჭერისთვის.</p>
+                    <div class="project-features">
+                        <span data-i18n="projects.dist.feature1">მენტორების მოძებნა საგნის, ფასისა და დროის მიხედვით</span>
+                        <span data-i18n="projects.dist.feature2">მენტორის პროფილები და რეიტინგები</span>
+                        <span data-i18n="projects.dist.feature3">ონლაიინ სწავლების ინტეგრაცია</span>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/shotikoberoshvili/DIST" target="_blank" rel="noopener noreferrer" class="btn-link">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            GitHub
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Project 2: Arduino Composting -->
+                <article class="project-card">
+                    <div class="project-status status-inprogress" data-i18n="projects.status.inprogress">განვითარებაში</div>
+                    <h3 data-i18n="projects.arduino.title">Arduino-Based Composting Device</h3>
+                    <p data-i18n="projects.arduino.desc">Arduino-ზე დაფუძნებული ექსპერიმენტული მოწყობილობა კომპოსტირების პირობების მონიტორინგისა და აპარატურის კონტროლისთვის.</p>
+                    <div class="project-features">
+                        <span data-i18n="projects.arduino.feature1">Arduino Uno</span>
+                        <span data-i18n="projects.arduino.feature2">DHT11 ტემპერატურისა და ტენიანობის სენსორი</span>
+                        <span data-i18n="projects.arduino.feature3">MQ-7 გაზის სენსორი</span>
+                        <span data-i18n="projects.arduino.feature4">ნიადაგის ტენიანობის სენსორი</span>
+                        <span data-i18n="projects.arduino.feature5">I2C LCD დისპლეი</span>
+                        <span data-i18n="projects.arduino.feature6">ვენტილატორისა და მიქსერის კონტროლი</span>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Arduino</span>
+                        <span class="tech-tag" data-i18n="skills.electronics">ელექტრონიკა</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://www.facebook.com/reel/1204388508266965" target="_blank" rel="noopener noreferrer" class="btn-link">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                            ვიდეოს ნახვა
+                        </a>
+                    </div>
+                    <div class="project-illustration">
+                        <svg viewBox="0 0 200 120" class="project-svg" aria-hidden="true">
+                            <rect x="20" y="20" width="160" height="80" rx="8" fill="#EAF6EF" stroke="#91D7B5" stroke-width="2"/>
+                            <circle cx="50" cy="60" r="15" fill="#BFE8D2"/>
+                            <circle cx="100" cy="60" r="15" fill="#BFE8D2"/>
+                            <circle cx="150" cy="60" r="15" fill="#BFE8D2"/>
+                            <rect x="40" y="55" width="20" height="10" rx="2" fill="#356B55"/>
+                            <rect x="90" y="55" width="20" height="10" rx="2" fill="#356B55"/>
+                            <rect x="140" y="55" width="20" height="10" rx="2" fill="#356B55"/>
+                        </svg>
+                    </div>
+                </article>
+
+                <!-- Project 3: AgroLink -->
+                <article class="project-card">
+                    <div class="project-status status-concept" data-i18n="projects.status.concept">კონცეფცია</div>
+                    <h3 data-i18n="projects.agrolink.title">AgroLink</h3>
+                    <p data-i18n="projects.agrolink.desc">აგრარული ტექნოლოგიების მარკეტფლეისის კონცეფცია, რომელიც აკავშირებს ფერმერებს ტრაქტორის ოპერატორებთან და სასოფლო-სამეურნეო ტექნიკის სერვისებთან.</p>
+                    <div class="project-features">
+                        <span data-i18n="projects.agrolink.feature1">ტექნიკის სია</span>
+                        <span data-i18n="projects.agrolink.feature2">აღჭურვილობის სპეციფიკაციები</span>
+                        <span data-i18n="projects.agrolink.feature3">სერვისის დაჯავშნა</span>
+                        <span data-i18n="projects.agrolink.feature4">ლოკაციის ინფორმაცია</span>
+                        <span data-i18n="projects.agrolink.feature5">კომუნიკაცია და განხილვები</span>
+                    </div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Web Development</span>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title" data-i18n="certifications.title">სერტიფიკატები</h2>
+            <div class="certifications-grid">
+                <!-- Google Ads Certificate -->
+                <div class="cert-card">
+                    <h3 data-i18n="certifications.google.title">Google Ads Certification — 2026</h3>
+                    <div class="cert-image-container">
+                        <img src="assets/certficate.png" alt="Google Ads Certification" class="cert-image">
+                    </div>
+                    <a href="assets/certficate.png" target="blank" class="btn btn-primary" data-i18n="certifications.view">სერტიფიკატის ნახვა</a>
+                </div>
+
+                <!-- TBC TechSchool Certificate -->
+                <div class="cert-card">
+                    <h3 data-i18n="certifications.tbc.title">TBC TechSchool — Backend Development</h3>
+                    <div class="cert-image-container">
+                        <img src="assets/tbc ge.png" alt="TBC TechSchool Certificate (Georgian)" class="cert-image cert-image-ka">
+                        <img src="assets/tbc en.png" alt="TBC TechSchool Certificate (English)" class="cert-image cert-image-en">
+                    </div>
+                    <a href="assets/tbc ge.png" target="blank" class="btn btn-primary" data-i18n="certifications.view">სერტიფიკატის ნახვა</a>
+                </div>
+
+                <!-- IT Academy STEP Certificate -->
+                <div class="cert-card">
+                    <h3 data-i18n="certifications.step.title">IT Academy STEP — IT Support</h3>
+                    <div class="cert-image-container">
+                        <img src="assets/it.jpg" alt="IT Academy STEP Certificate" class="cert-image">
+                    </div>
+                    <a href="assets/it.jpg" target="blank" class="btn btn-primary" data-i18n="certifications.view">სერტიფიკატის ნახვა</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="achievements.title">მიღწევები</h2>
+            <div class="achievements-timeline">
+                <div class="achievement-item">
+                    <div class="achievement-marker"></div>
+                    <div class="achievement-content">
+                        <h3 data-i18n="achievements.robotics">რობოტიკის კონკურსებში მონაწილეობა</h3>
+                        <p data-i18n="achievements.robotics.desc">მონაწილეობა რობოტიკის კონკურსებსა და ტექნოლოგიურ შეჯიბრებში.</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-marker"></div>
+                    <div class="achievement-content">
+                        <h3 data-i18n="achievements.startup">სტარტაპ კონცეფციების განვითარება</h3>
+                        <p data-i18n="achievements.startup.desc">სტარტაპ იდეებისა და ტექნოლოგიური პროტოტიპების შექმნა და განვითარება.</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-marker"></div>
+                    <div class="achievement-content">
+                        <h3 data-i18n="achievements.gita">GITA პროგრამებში მონაწილეობა</h3>
+                        <p data-i18n="achievements.gita.desc">მონაწილეობა ტექნოლოგიურ განათლებისა და ინოვაციის პროგრამებში.</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-marker"></div>
+                    <div class="achievement-content">
+                        <h3 data-i18n="achievements.fablab">FabLab ტექნიკუ�见到 მოხალისეობა</h3>
+                        <p data-i18n="achievements.fablab.desc">ტექნიკური მოხალისეობა და მხარდაჭერა FabLab გარემოში.</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-marker"></div>
+                    <div class="achievement-content">
+                        <h3 data-i18n="achievements.projects">ტექნიკური პროექტები</h3>
+                        <p data-i18n="achievements.projects.desc">პროგრამირების, ელექტრონიკისა და AI-სთან დაკავშირებული პროექტების შექმნა.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STEM & Leadership Section -->
+    <section id="stem" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title" data-i18n="stem.title">STEM და ლიდერობა</h2>
+            <div class="stem-content">
+                <div class="stem-image-container">
+                    <img src="assets/klubi.jpg" alt="STEM Club Activities" class="stem-image">
+                </div>
+                <div class="stem-text">
+                    <p data-i18n="stem.p1">მე ვაწყობ და ვხელმძღვანელობ STEM კლუბის აქტივობებს გურჯაანში და ვეხმარები ახალგაზრდებს ტექნოლოგიების, თანამშრომლობისა და იდეების პროექტებად ქცევის შესწავლაში.</p>
+                    <p data-i18n="stem.p2">ჩემი მიზანია შევიყვანო ახალგაზრდები STEM-სა და ტექნოლოგიებში, ხელი შევუწყო გუნდურ მუშაობასა და კოლექტიურ პრობლემის გადაჭრას, მხარი შევუწყო სტარტაპ იდეების გენერაციასა და პროტოტიპირებას, ხელი შევუწყო პროექტების პრეზენტაციასა და კონსტრუქტიულ განხილვას.</p>
+                    <p data-i18n="stem.p3">მჯერა, რომ პრაქტიკული სწავლება და ახალგაზრდული ინოვაცია მნიშვნელოვან როლს ასრულებს მომავლის ტექნოლოგიურ ლიდერების აღზრდაში.</p>
+                </div>
+                <div class="stem-illustration">
+                    <svg viewBox="0 0 300 200" class="stem-svg" aria-hidden="true">
+                        <circle cx="150" cy="100" r="80" fill="#EAF6EF"/>
+                        <circle cx="100" cy="80" r="25" fill="#BFE8D2"/>
+                        <circle cx="200" cy="80" r="25" fill="#BFE8D2"/>
+                        <circle cx="150" cy="140" r="25" fill="#BFE8D2"/>
+                        <path d="M100 80 L150 140 L200 80" stroke="#91D7B5" stroke-width="3" fill="none"/>
+                        <circle cx="150" cy="100" r="15" fill="#91D7B5"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact.title">კონტაქტი</h2>
+            <div class="contact-content">
+                <p data-i18n="contact.intro">დამიკავშირდით პროექტების, თანამშრომლობის, ტექნოლოგიებისა და სწავლების შესაძლებლობების შესახებ.</p>
+                <div class="contact-links">
+                    <a href="https://github.com/shotikoberoshvili" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/შოთიკო-ბეროშვილი-b90a33284/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p data-i18n="footer.copyright">© 2026 Shotiko Beroshvili. ყველა უფლება დაცულია.</p>
+                <div class="footer-links">
+                    <a href="#hero" data-i18n="nav.home">მთავარი</a>
+                    <a href="#projects" data-i18n="nav.projects">პროექტები</a>
+                    <a href="#contact" data-i18n="nav.contact">კონტაქტი</a>
+                </div>
+            </div>
+            <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+            </button>
+        </div>
+    </footer>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Shotiko Beroshvili",
+        "alternateName": "შოთიკო ბეროშვილი",
+        "jobTitle": "Full-Stack Developer",
+        "description": "Full-Stack Developer, Technology Enthusiast, STEM Club Leader from Gurjaani, Georgia",
+        "url": "https://yourusername.github.io/portfolio/",
+        "sameAs": [
+            "https://github.com/shotikoberoshvili"
+        ],
+        "knowsAbout": ["Web Development", "Python", "Arduino", "Robotics", "STEM Education"]
+    }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
